@@ -19,6 +19,6 @@
 
 <style>
 	.home-container {
-		@apply flex flex-col w-full max-w-xl px-10 mt-8 justify-center items-center align-middle text-center overflow-x-hidden;
+		@apply flex flex-col w-full max-w-xl px-10 justify-center items-center align-middle text-center overflow-x-hidden;
 	}
 </style>

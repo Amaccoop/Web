@@ -173,21 +173,20 @@
 				</h6>
 				<p class="flex items-center justify-center md:justify-start mb-4">
 					<svg
-						aria-hidden="true"
-						focusable="false"
-						data-prefix="fas"
-						data-icon="phone"
-						class="w-4 mr-4"
-						role="img"
 						xmlns="http://www.w3.org/2000/svg"
-						viewBox="0 0 512 512"
+						class="h-6 w-6 mr-3"
+						fill="none"
+						viewBox="0 0 24 24"
+						stroke="currentColor"
+						stroke-width="2"
 					>
 						<path
-							fill="currentColor"
-							d="M493.4 24.6l-104-24c-11.3-2.6-22.9 3.3-27.5 13.9l-48 112c-4.2 9.8-1.4 21.3 6.9 28l60.6 49.6c-36 76.7-98.9 140.5-177.2 177.2l-49.6-60.6c-6.8-8.3-18.2-11.1-28-6.9l-112 48C3.9 366.5-2 378.1.6 389.4l24 104C27.1 504.2 36.7 512 48 512c256.1 0 464-207.5 464-464 0-11.2-7.7-20.9-18.6-23.4z"
+							stroke-linecap="round"
+							stroke-linejoin="round"
+							d="M8 7V3m8 4V3m-9 8h10M5 21h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z"
 						/>
 					</svg>
-					<a href={config.SCHEDULE_LINK}>Schedule an Appointment</a>
+					<a href={config.SCHEDULE_LINK}>Schedule a Call</a>
 				</p>
 			</div>
 		</div>

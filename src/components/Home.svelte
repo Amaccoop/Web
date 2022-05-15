@@ -99,7 +99,7 @@
 	}
 
 	.btn-action {
-		@apply flex flex-row w-72  py-4 bg-blue-700 rounded-full items-center justify-center ring-4 ring-blue-700 ring-opacity-0;
+		@apply flex flex-row w-72  py-3 bg-blue-600 rounded-full items-center justify-center ring-4 ring-blue-700 ring-opacity-0;
 	}
 
 	.btn-action .calendar-icon {
