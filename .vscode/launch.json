@@ -1,0 +1,10 @@
+{
+    "configurations": [
+        {
+            "type": "Web",
+            "name": "App",
+            "request": "launch",
+            "url": "http://localhost:3000"
+        }
+    ]
+}

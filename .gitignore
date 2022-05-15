@@ -1,0 +1,23 @@
+# Native
+.DS_Store
+node_modules
+/build
+/package
+
+# Env
+*.env
+.env
+.env.*
+!.env.example
+
+# Certs
+*.key
+*.cert
+*.pem
+*.crt
+
+# Svelte
+/.svelte-kit
+
+# Vercel
+.vercel
