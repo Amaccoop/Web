@@ -2,6 +2,6 @@
 	"$schema": "https://openapi.vercel.sh/vercel.json",
   "rewrites": [
 		{ "source": "/api/(.*)", "destination": "/api" },
-		{ "source": "/campaign/medical-center", "destination": "/" }
+		{ "source": "/campaign/medical-center", "destination": "/index.html" }
 	]
 }
