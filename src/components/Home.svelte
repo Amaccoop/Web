@@ -33,7 +33,7 @@
 	<!-- Body -->
 	<div class="body-container">
 		<!-- Welcome -->
-		<h2>Welcome!</h2>
+		<h2 class="mt-8">Welcome!</h2>
 		<p>
 			If you would like to make an appointment, click "Schedule a call" below.
 			You will be presented with my avilability. Please then select a time slot
@@ -145,6 +145,6 @@
 	}
 
 	p.notice {
-		@apply mt-3 text-lg opacity-30;
+		@apply mt-5 text-lg opacity-30;
 	}
 </style>

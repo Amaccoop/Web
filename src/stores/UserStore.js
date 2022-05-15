@@ -2,7 +2,7 @@
 import { browser } from '$app/env';
 import { writable } from 'svelte/store'
 
-const name = "rq_user";
+const name = "ac_user";
 const defaultValue = null;
 
 const getInitialValue = () => {
