@@ -122,11 +122,11 @@
 	}
 
 	.signup-container {
-		@apply flex flex-col w-full max-w-xl my-20 justify-center items-center;
+		@apply flex flex-col w-full max-w-xl mt-20 justify-center items-center;
 	}
 
 	.signup-body {
-		@apply flex w-full mt-4 max-w-md items-center;
+		@apply flex w-full mt-3 max-w-md items-center;
 	}
 
 	.signup-body input {
@@ -146,7 +146,7 @@
 	}
 
 	h2 {
-		@apply flex mb-5 text-2xl;
+		@apply flex mb-4 text-2xl;
 	}
 
 	p {
