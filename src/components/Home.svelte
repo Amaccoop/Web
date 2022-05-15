@@ -122,7 +122,7 @@
 	}
 
 	.signup-container {
-		@apply flex flex-col w-full max-w-xl mt-20 justify-center items-center;
+		@apply flex flex-col hidden w-full max-w-xl mt-20 justify-center items-center;
 	}
 
 	.signup-body {

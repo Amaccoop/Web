@@ -9,10 +9,10 @@
 	<div
 		class="flex justify-center items-center lg:justify-between p-6 border-t border-gray-100"
 	>
-		<div class="mr-12 hidden lg:block">
+		<div class="mr-12 hidden">
 			<span>Connect with me on social networks:</span>
 		</div>
-		<div class="flex justify-center">
+		<div class="flex justify-center hidden">
 			<!-- Facebook -->
 			<a href={config.FACEBOOK_LINK} class="mr-6 text-gray-600">
 				<svg
@@ -149,7 +149,7 @@
 					<a href="#!" class="text-gray-600">Product Four</a>
 				</p>
 			</div>
-			<div class="flex flex-col flex-grow">
+			<div class="flex flex-col flex-grow hidden">
 				<h6
 					class="uppercase font-semibold mb-4 flex justify-center md:justify-start"
 				>
