@@ -36,7 +36,7 @@
 	<!-- Body -->
 	<div class="body-container">
 		<!-- Welcome -->
-		<h2 class="mt-8 italic font-semibold antialiased">Welcome!</h2>
+		<h2 class="mt-8 italic font-semibold antialiased">Welcome</h2>
 		<p class="ml-1.5">
 			If you would like to make an appointment, click "Schedule a call" below.
 			You will be presented with my avilability. Please then select a time slot
