@@ -101,7 +101,7 @@
 			<!--<LightSwitch />-->
 		</div>
 		<main
-			class="flex flex-col w-full h-screen items-center bg-[url('/images/BgBlueFade.svg')] bg-no-repeat"
+			class="flex flex-col w-full h-screen items-center bg-[url('/images/BgBlueFade.svg')] bg-repeat-x"
 		>
 			<slot />
 			<Footer />
