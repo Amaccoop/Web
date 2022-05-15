@@ -56,7 +56,7 @@
 				/>
 				<div class="text">Schedule a Call</div>
 			</a>
-			<p class="notice">* A formal name is not required to connect.</p>
+			<p class="notice">* A formal name is not required.</p>
 		</div>
 
 		<!-- Sign-up for Newsletter -->
@@ -75,7 +75,7 @@
 
 <style>
 	.container {
-		@apply flex flex-col items-center px-10;
+		@apply flex flex-col items-center;
 	}
 
 	.header {
@@ -87,7 +87,7 @@
 	}
 
 	.body-container {
-		@apply flex flex-col text-left;
+		@apply flex flex-col w-full text-left;
 	}
 
 	.signature {
@@ -116,19 +116,19 @@
 	}
 
 	.signup-container {
-		@apply flex flex-col my-20 justify-center items-center;
+		@apply flex flex-col w-full max-w-xl my-20 justify-center items-center;
 	}
 
 	.signup-body {
-		@apply flex flex-row items-center;
+		@apply flex flex-row w-full mt-4 max-w-md items-center;
 	}
 
 	.signup-body input {
-		@apply flex flex-col flex-grow w-72 h-16 px-5 rounded-l-full text-lg border-gray-200;
+		@apply flex flex-col w-3/4 h-16 px-5 rounded-l-full text-lg border-gray-200;
 	}
 
 	.signup-body button {
-		@apply flex flex-col w-32 h-16 px-8 rounded-r-full bg-gray-600;
+		@apply flex flex-col w-24 h-16 px-16 rounded-r-full bg-gray-600 items-center justify-center;
 	}
 
 	.signup-body button .text {

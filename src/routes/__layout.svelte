@@ -69,8 +69,8 @@
 		// Initial Light
 		localStorage.setItem(_key_theme, "light");
 
-		applyTheme();
-		window.matchMedia(_dark_preference).addEventListener("change", applyTheme);
+		//applyTheme();
+		//window.matchMedia(_dark_preference).addEventListener("change", applyTheme);
 
 		// Start fresh
 		// localStorage.clear();
@@ -101,7 +101,7 @@
 			<!--<LightSwitch />-->
 		</div>
 		<main
-			class="flex flex-col w-full h-screen items-center bg-[url('/images/BgBlueFade.svg')] bg-repeat-x"
+			class="flex flex-col w-full items-center bg-[url('/images/BgFade.svg')] bg-repeat-x"
 		>
 			<slot />
 			<Footer />

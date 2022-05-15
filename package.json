@@ -3,7 +3,7 @@
 	"version": "0.0.1",
 	"type": "module",
 	"scripts": {
-		"dev": "cp -v _dev.env .env && svelte-kit dev --port 3000",
+		"dev": "cp -v _dev.env .env && svelte-kit dev --host --port 3000",
 		"build": "svelte-kit build",
 		"preview": "svelte-kit preview --host",
 		"package": "svelte-kit package",

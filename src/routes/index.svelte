@@ -1,24 +1,24 @@
 <script>
-  // Core
-  import api from "../api";
+	// Core
+	import api from "../api";
 
-  // Vendor
-  import { onMount } from "svelte";
+	// Vendor
+	import { onMount } from "svelte";
 
-  // Components
-  import Home from "../components/Home.svelte";
+	// Components
+	import Home from "../components/Home.svelte";
 
-  // Private
+	// Private
 
-  onMount(async () => {});
+	onMount(async () => {});
 </script>
 
 <div class="home-container">
-  <Home />
+	<Home />
 </div>
 
 <style>
-  .home-container {
-    @apply flex flex-col w-full max-w-xl mt-8 justify-center items-center align-middle text-center;
-  }
+	.home-container {
+		@apply flex flex-col w-full max-w-xl px-10 mt-8 justify-center items-center align-middle text-center overflow-x-hidden;
+	}
 </style>
