@@ -1,7 +1,10 @@
 {
 	"$schema": "https://openapi.vercel.sh/vercel.json",
+	"trailingSlash": false,
   "rewrites": [
-		{ "source": "/api/(.*)", "destination": "/api" },
-		{ "source": "/campaign/medical-center", "destination": "/index.html" }
+		{ "source": "/api/(.*)", "destination": "/api" }
+	],
+	"redirects": [
+		{ "source": "/campaign/medical-center", "permanent": false, "destination": "/" }
 	]
 }
