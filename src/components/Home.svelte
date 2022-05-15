@@ -36,7 +36,7 @@
 	<!-- Body -->
 	<div class="body-container">
 		<!-- Welcome -->
-		<h2 class="mt-8">Welcome!</h2>
+		<h2 class="mt-8 italic font-semibold antialiased">Welcome!</h2>
 		<p>
 			If you would like to make an appointment, click "Schedule a call" below.
 			You will be presented with my avilability. Please then select a time slot
@@ -63,9 +63,15 @@
 		<div class="signup-container">
 			<h2>Sign-up for Emails</h2>
 
-			<div class="signup-body">
-				<input placeholder="name@email.com" type="text" />
-				<button>
+			<div class="signup-body flex-col sm:flex-row lg:flex-row xl:flex-row">
+				<input
+					class="flex flex-row rounded-full sm:rounded-r-none md:rounded-r-none lg:rounded-r-none xl:rounded-r-none"
+					placeholder="name@email.com"
+					type="text"
+				/>
+				<button
+					class="flex flex-row w-40 mt-4 rounded-full sm:rounded-l-none md:rounded-l-none lg:rounded-l-none xl:rounded-l-none sm:mt-0 md:mt-0: lg:mt-0 xl:mt-0"
+				>
 					<div class="text">Submit</div>
 				</button>
 			</div>
@@ -91,7 +97,7 @@
 	}
 
 	.signature {
-		@apply flex mt-8 w-24;
+		@apply flex mt-5 w-24;
 	}
 
 	.action-container {
@@ -120,15 +126,15 @@
 	}
 
 	.signup-body {
-		@apply flex flex-row w-full mt-4 max-w-md items-center;
+		@apply flex w-full mt-4 max-w-md items-center;
 	}
 
 	.signup-body input {
-		@apply flex flex-col w-3/4 h-16 px-5 rounded-l-full text-lg border-gray-200;
+		@apply flex h-16 px-5 rounded-l-full text-lg border-gray-200;
 	}
 
 	.signup-body button {
-		@apply flex flex-col w-24 h-16 px-16 rounded-r-full bg-gray-600 items-center justify-center;
+		@apply flex h-16 px-16 rounded-r-full bg-gray-600 items-center justify-center;
 	}
 
 	.signup-body button .text {
@@ -144,7 +150,7 @@
 	}
 
 	p {
-		@apply flex text-lg leading-9;
+		@apply flex antialiased text-xl leading-9;
 	}
 
 	p.notice {
