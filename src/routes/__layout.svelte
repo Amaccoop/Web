@@ -2,6 +2,9 @@
 	// Core CSS
 	import "../app.css";
 
+	// Config
+	import config from "../config";
+
 	import { setContext, onMount } from "svelte";
 	import { fade } from "svelte/transition";
 

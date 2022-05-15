@@ -11,6 +11,9 @@
 	// Icons
 	import CheckIcon from "./Icons/CheckIcon.svelte";
 
+	// Config
+	import config from "../config";
+
 	// Private
 	let email;
 
@@ -45,14 +48,14 @@
 
 		<!-- Schedule a Call -->
 		<div class="action-container">
-			<button class="btn-action">
+			<a class="btn-action" href={config.SCHEDULE_LINK}>
 				<img
 					class="calendar-icon"
 					alt="Google Calendar"
 					src="/images/Google_Calendar_Icon.svg"
 				/>
 				<div class="text">Schedule a Call</div>
-			</button>
+			</a>
 			<p class="notice">* A formal name is not required to connect.</p>
 		</div>
 
@@ -76,7 +79,7 @@
 	}
 
 	.header {
-		@apply flex flex-col mt-8 items-center;
+		@apply flex flex-col mt-12 items-center;
 	}
 
 	.logo {
